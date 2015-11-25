@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+'''TEMPLATE_DIRS = (
+    'C:/Users/Антон/Google Диск/projects/web_blog/templates',
+)'''
+
 
 # Application definition
 
@@ -56,7 +60,7 @@ ROOT_URLCONF = 'web_blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), 'C:/Users/Антон/Google Диск/projects/web_blog/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {

@@ -60,7 +60,9 @@ ROOT_URLCONF = 'web_blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates'), 'C:/Users/Антон/Google Диск/projects/web_blog/templates']
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 'C:/Users/Антон/Google Диск/projects/web_blog/templates',
+                 'C:/Users/Антон/Google Диск/projects/web_blog/article/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {

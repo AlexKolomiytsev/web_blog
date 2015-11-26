@@ -12,4 +12,3 @@ login: admin
 email: admin@example.com
 password: 1111
 
-All articles are temporary here: http://127.0.0.1:8000/articles/all/
